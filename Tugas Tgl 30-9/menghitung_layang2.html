@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menghitung Luas dan Keliling Layang-layang</title>
+  <script type="text/javascript">
+    function hitungluaskeliling() {
+        d1 = document.getElementById("d1").value;
+        d2 = document.getElementById("d2").value;
+        sisiA = document.getElementById("sisiA").value;
+        sisiB = document.getElementById("sisiB").value;
+        luas = 0.5 * d1 * d2;
+        keliling = 2 * (parseFloat(sisiA) + parseFloat(sisiB));
+        document.getElementById("luas").value = luas;
+        document.getElementById("keliling").value = keliling;
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <h4>Menghitung Luas dan Keliling Layang-layang</h4>
+    <table>
+      <tr>
+        <td>Diagonal 1</td>
+        <td>:</td>
+        <td><input type="text" id="d1" name="d1"></td>
+      </tr>
+      <tr>
+        <td>Diagonal 2</td>
+        <td>:</td>
+        <td><input type="text" id="d2" name="d2"></td>
+      </tr>
+      <tr>
+        <td>Sisi A</td>
+        <td>:</td>
+        <td><input type="text" id="sisiA" name="sisiA"></td>
+      </tr>
+      <tr>
+        <td>Sisi B</td>
+        <td>:</td>
+        <td><input type="text" id="sisiB" name="sisiB"></td>
+      </tr>
+      <tr>
+        <td>Luas</td>
+        <td>:</td>
+        <td><input type="text" id="luas" name="luas" disabled></td>
+      </tr>
+      <tr>
+        <td>Keliling</td>
+        <td>:</td>
+        <td><input type="text" id="keliling" name="keliling" disabled></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td><input type="button" value="Hitung luas keliling" onClick="hitungluaskeliling()"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
