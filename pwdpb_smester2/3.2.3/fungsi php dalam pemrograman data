@@ -1,0 +1,10 @@
+PHP bukanlah bahasa pemrograman yang wajib digunakan. Bisa saja
+membuat website hanya menggunakan HTML saja. Web yang dihasilkan
+dengan HTML (dan CSS) ini dikenal dengan website statis, dimana konten
+dan halaman web bersifat tetap.Sebagai perbandingan, website dinamis
+yang bisa dibuat menggunakan PHP adalah situs web yang bisa menyesuaikan tampilan konten tergantung situasi. Website dinamis juga bisa
+menyimpan data ke dalam database, membuat halaman yang berubah-ubah
+sesuai input dari user, memproses form. Untuk pembuatan web, kode PHP
+biasanya di sisipkan kedalam dokumen HTML Dengan PHP halaman
+HTML menjadi lebih powerful karena PHP yang menggenerate kode HTML
+secara dinamis. Karena fitur inilah PHP disebut juga sebagai Scripting Language atau bahasa pemrograman script.
